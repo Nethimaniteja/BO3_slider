@@ -1,0 +1,92 @@
+.container{
+    padding: 5% 10%;
+}
+
+.splide__slide .slide-background {
+    border-radius: 15px;
+    width: 100%;
+    height: 70vh; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+  
+.slide-content{
+    width: 30%;
+    padding: 5%;
+    color: white;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 300;
+}
+
+  /* Add further customizations for button and text alignment as needed */
+   .slide-content button:nth-child(1){
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    backdrop-filter: blur(15px);
+   }
+
+
+   .slide-content p{
+        font-size: 25px;
+   }
+
+  .slide-content button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .dropdowns-and-button {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  .dropdowns-and-button select, .dropdowns-and-button button {
+    margin: 0 10px; 
+    padding: 10px; 
+  }
+  
+  /* Customizations for the button */
+  .dropdowns-and-button button {
+    cursor: pointer; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; /* Removes the border */
+    border-radius: 5px; 
+  }
+
+  #dynamic-slider .splide__arrow{
+    top:97%;
+    bottom: 0;
+    background: none;
+  }
+
+  .splide__arrow svg{
+    fill: white;
+  }
+
+  .splide__arrow--prev{
+    left: 40%;
+  }
+
+  .splide__arrow--next{
+    right: 40%;
+  }
+
+  .splide__pagination__page{
+    border-radius: 20%;
+  }
+
+  .splide__pagination__page.is-active {
+    height: 5px;
+    width: 15px;
+    margin: 5px;
+    background: white;
+    color: white;
+  }
+  
+  

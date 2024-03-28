@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide</title>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="dynamic-slider" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <!-- Slides will be dynamically added here -->
+              </ul>
+            </div>
+        </div>
+          
+          <!-- Dropdowns and Check Button -->
+          <div class="dropdowns-and-button">
+            <label for="dropdown1">Position</label>
+            <select id="dropdown1" name="dropdown1">
+              <option value="flex-start,flex-start">start-start</option>
+              <option value="flex-start,center">start-center</option>
+              <option value="flex-start,flex-end">start-end</option>
+              <option value="center,flex-start">center-start</option>
+              <option value="center,center">center-center</option>
+              <option value="center,flex-end">center-end</option>
+              <option value="flex-end,flex-start">end-start</option>
+              <option value="flex-end,center">end-center</option>
+              <option value="flex-end,flex-end">end-end</option>
+            </select>
+    
+            <label for="dropdown3">Text Position</label>
+            <select id="dropdown3" name="dropdown3">
+                <option value="start">start</option>
+                <option value="center">center</option>
+                <option value="end">end</option>
+            </select>
+          
+            <button id="checkButton">Check</button>
+          </div>
+    </div>
+    
+      
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    
+    <script src="./index.js"></script>
+
+</body>
+</html>
